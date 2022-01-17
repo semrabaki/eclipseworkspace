@@ -1,0 +1,22 @@
+package Collections;
+
+public class MapQuestion {
+/*
+ /*Type code to find how many times a word is repeated ion a given String*/
+
+
+	public static void main(String[] args) {
+
+		
+		String str="Nitelikli isletim nitelikli= isletim java is! easy but java is fun, ";
+		
+		str=str.toLowerCase();
+		
+		str=str.replaceAll("\\p{Punct}", str);
+		System.out.println(str);
+		
+		//String [] strArr= str.split(str)
+
+	}
+
+}

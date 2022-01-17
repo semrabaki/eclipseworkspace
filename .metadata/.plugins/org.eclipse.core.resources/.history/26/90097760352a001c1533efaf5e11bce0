@@ -1,0 +1,24 @@
+package day07stringmanipulation;
+
+public class StringManipulation01 {
+	/*
+	 * Regex (Regular Expression): Regex is used to ddeclare a group of characters
+	 * i)All lower case letters==> [a-z]
+	 * ii)All upper case letters==> [A-Z]
+	 * iii)All upper case and lower case letters==>[a-zA-Z]
+	 * iv)All characters different from space character ==> \\S
+	 */
+
+	public static void main(String[] args) {
+		
+		//1)Type code to find the number of space characters in a String
+		
+		String s1= "Ali went to the school";
+		
+		String updatedS1= s1.replaceAll("\\S", "");
+		System.out.println(updatedS1);
+		
+
+	}
+
+}

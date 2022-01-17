@@ -1,0 +1,34 @@
+package day33maps;
+
+import java.util.Hashtable;
+
+/*
+         1)HashTable is a Map
+	 	2)HashTable is thread-safe and synchronized
+	 	3)HashTable does not accept "null" in "key" and in "value"
+	 	4)HashTable does not put the elements in any order
+	 	5)HashTable is slower than HashMap 
+ */
+
+public class HashTable01 {
+
+	public static void main(String[] args) {
+		
+		Hashtable <String, Integer> ht1= new Hashtable<>();
+		
+		ht1.put("Ali",3000);
+		//ht1.put(null, 500);//If you use "null" as key in hashtable it throws nulllpoint exception
+		//ht1.put("Veli", null);//If you use "null" as value in hashtable it throws nulllpoint exception
+		
+		
+		System.out.println(ht1.containsKey("Ali"));//true
+		System.out.println(ht1.containsKey("Ayse"));//false
+		
+		System.out.println(ht1.containsKey(3000));//true
+		System.out.println(ht1.containsKey(3333));//false
+		
+		System.out.println(ht1);
+
+	}
+
+}

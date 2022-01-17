@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;lambda_functional_programming.Fp05Review&apos; to &apos;Fp04Review&apos;&#x0D;&#x0A;- Original project: &apos;Fall21Eng&apos;&#x0D;&#x0A;- Original element: &apos;lambda_functional_programming.Fp05Review&apos;&#x0D;&#x0A;- Renamed element: &apos;lambda_functional_programming.Fp04Review&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Fp05Review&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;lambda_functional_programming{Fp05Review.java[Fp05Review" matchStrategy="1" name="Fp04Review" qualified="false" references="true" similarDeclarations="false" stamp="1638913668051" textual="false" version="1.0"/>
+</session>

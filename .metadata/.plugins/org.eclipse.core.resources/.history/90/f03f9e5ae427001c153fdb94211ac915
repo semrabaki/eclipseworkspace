@@ -1,0 +1,12 @@
+package day05homework;
+
+public class CodeTry {
+
+	public static void main(String[] args) {
+		int y = 112;
+		//What do you see on the console?
+		System.out.println((y < 91) ? 9 : "Horse");
+		
+	}
+
+}

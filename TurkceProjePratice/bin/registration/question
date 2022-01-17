@@ -1,0 +1,15 @@
+
+
+Bu uygulama kullanicalarin bir ArrayListe kayit zamanini da ekleyen ve sonrasinda her dakikanin ilk 10 saniyesinde
+kaydolanlari sansli kullanici olarak ekrana yazdiran bir uygulamadir. 
+
+Bunun icin;
+
+1- Bir User class olusturulmali: fields :name and registrationDate (LocalDateTime type)
+2-Registration isminde bir class: 
+   register() isminde bir method : kullanicidan user ismini alarak ArrayListe ekleyip bu listi return ettirmeli
+   printHappyUsers() isminde bir methos - kendine verilen ArrayListeki userlardan her dakikanin ilk 10 saniyesinde
+    kaydolanlari yazdiran  bir baska method daha.
+3- Ve bir runner classi olusturup kullaniciya sunulan seceneklerden sectirip ona gore islem yapilmali
+
+("Please \n For user registration--1\n To see lucky users--2\n To exit--3 ")

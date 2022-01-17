@@ -1,0 +1,11 @@
+package familyproject;
+
+public class Parent implements HonorAward {
+
+	@Override
+	public String successMessage() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

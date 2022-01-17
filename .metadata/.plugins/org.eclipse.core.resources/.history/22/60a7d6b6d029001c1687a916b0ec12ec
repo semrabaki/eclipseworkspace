@@ -1,0 +1,26 @@
+package day06NestedTernaryswitchstringmanipulation;
+
+import java.util.Scanner;
+
+public class StringManipulation {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter a string...");
+		String str = scan.nextLine();
+		
+		//Print the first and last character of the given String on the console. "Java is easy" ==>Jy
+        
+		char firstChar = str.charAt(0);
+		char lastChar = str.charAt(str.length()-1);
+		
+		System.out.println(firstChar+lastChar);//this give number since it will count it as integer
+		System.out.println(""+firstChar+lastChar);//Jy 
+		
+		
+		
+	}
+
+}

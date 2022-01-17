@@ -1,0 +1,10 @@
+package day03homework;
+
+public class CircleAreaAndPremiter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

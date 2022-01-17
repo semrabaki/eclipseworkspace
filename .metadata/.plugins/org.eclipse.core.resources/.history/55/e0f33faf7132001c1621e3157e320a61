@@ -1,0 +1,32 @@
+package day15arrays;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Arrays02 {
+
+	public static void main(String[] args) {
+		
+		//Get the array elements from user and create an array
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.println("Enter the length of the array");
+		
+		int length= scan.nextInt();
+		String sArr[]= new String [length];
+		
+		for(int i =0; i<length; i++)
+		{
+			System.out.println("Enter" + (i+1) + ". element");
+			
+			sArr[i]= scan.next();
+		}
+		
+		System.out.println(Arrays.toString(sArr));
+		
+		
+
+	}
+
+}

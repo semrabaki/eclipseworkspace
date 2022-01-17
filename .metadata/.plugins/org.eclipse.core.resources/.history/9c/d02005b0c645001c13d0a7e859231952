@@ -1,0 +1,25 @@
+package day29exceptions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Iterators01 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> list1 = new ArrayList<>();
+		list1.add("Ali");
+		list1.add("Can");
+		list1.add("Ali Can");
+		
+		System.out.println(list1);
+		
+		for(String w:list1)
+		{
+			w=w+"!";
+		}
+		System.out.println(list1);
+			
+	}
+
+}

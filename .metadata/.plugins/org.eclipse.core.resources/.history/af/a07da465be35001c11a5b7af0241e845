@@ -1,0 +1,11 @@
+package day16arraysforeachloop;
+
+public class ReviewArrays05 {
+
+	public static void main(String[] args) {
+		//Find the longest word in a String
+		
+		String s ="Ali Can went to school to learn";
+	}
+
+}

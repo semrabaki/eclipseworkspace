@@ -1,0 +1,13 @@
+package contactsmanager;
+
+public class Contacts {
+	
+	String name;
+	String email;
+	String phoneNumber;
+	
+	
+	
+
+
+}

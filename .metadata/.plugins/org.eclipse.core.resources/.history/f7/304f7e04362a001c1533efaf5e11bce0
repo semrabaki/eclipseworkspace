@@ -1,0 +1,38 @@
+package day07stringmanipulation;
+
+public class StringManipulation01 {
+	/*
+	 * Regex (Regular Expression): Regex is used to ddeclare a group of characters
+	 * i)All lower case letters==> [a-z]
+	 * ii)All upper case letters==> [A-Z]
+	 * iii)All upper case and lower case letters==>[a-zA-Z]
+	 * iv)All characters different from space character ==> \\S
+	 * v)Space character ==> \\s
+	 */
+
+	public static void main(String[] args) {
+		
+		//1)Type code to find the number of space characters in a String
+		
+		String s1= "Ali went to the school";
+		
+		String updatedS1= s1.replaceAll("\\S", "");
+		System.out.println(updatedS1);
+		//System.out.println(updatedS1.length());
+		
+		//1)Type code to find the number of characters different from space characters
+		
+		//1.Way:Number of all characters- Number of space characters= Number of characters different from space character
+		
+		int numfCharsDifferentFromSpace = s1.length() - updatedS1.length();
+		
+		System.out.println(numfCharsDifferentFromSpace);
+		
+		//2.way:Find the characters different from space  directly
+		String updatedS11 = s1.replaceAll("\\s", "");
+		System.out.println(updatedS11.length());
+		
+
+	}
+
+}

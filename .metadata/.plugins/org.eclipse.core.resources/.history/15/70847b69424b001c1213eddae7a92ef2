@@ -1,0 +1,25 @@
+package day33maps;
+
+import java.util.TreeMap;
+
+/*
+   1) TreeMap puts the entries in natural order by using keys.
+   2)TreeMap does not accept "null" in Keys but accepts multiple null`s in values.
+ */
+
+public class TreeMap01 {
+
+	public static void main(String[] args) {
+		
+		TreeMap<String, Integer> tm1= new TreeMap<>();
+		tm1.put("Ali",3000);
+		tm1.put("Tom",500);
+		tm1.put("Alexandra",12000);
+		tm1.put("Mark",5000);
+		tm1.put("Angelina",23000);
+		
+		System.out.println(tm1);
+
+	}
+
+}

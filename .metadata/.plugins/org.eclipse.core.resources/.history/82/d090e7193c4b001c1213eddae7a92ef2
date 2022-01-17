@@ -1,0 +1,22 @@
+package day33maps;
+
+import java.util.HashMap;
+
+public class HashMap03 {
+
+	public static void main(String []args)
+	{
+		//How HashMaps work in Java
+		HashMap<String, Integer> hm1= new HashMap<>();
+		
+		hm1.put("abc", 5);
+		
+		
+		
+		System.out.println("FB".hashCode());
+		System.out.println("Ea".hashCode());
+		hm1.put(null, 12);
+		
+	}
+
+}

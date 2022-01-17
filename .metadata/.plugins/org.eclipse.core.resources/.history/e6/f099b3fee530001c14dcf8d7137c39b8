@@ -1,0 +1,28 @@
+package day13;
+
+public class Cars {
+	
+	 public String make;
+	 public String model;
+	 public int price;
+	 public int year;
+	
+	 public static int numOfCars= 0;
+	 public String vin;
+	 
+	 //If you do nor use " static" keyword between " access" modifier
+	 //and "return type", the method will be instance method
+	 
+	 
+	 public void drive()
+	 {
+		 System.out.println("I am driving a car...");
+	 }
+	 
+	 public static String engine()
+	 {
+		 return "Engune exists";
+	 }
+
+
+}

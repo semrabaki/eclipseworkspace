@@ -1,0 +1,15 @@
+package day13;
+
+public class CarsRunner {
+
+	public static void main(String[] args) {
+		
+		//Inside the Cars class, we have 6 variables
+		// but by using class name you can access just
+		//static variable
+		
+		System.out.println(Cars.numOfCars);
+		
+	}
+
+}
